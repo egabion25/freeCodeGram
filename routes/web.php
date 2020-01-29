@@ -18,7 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::post('follow/{user}',function(){
-
     return ['success']; 
 });
 
